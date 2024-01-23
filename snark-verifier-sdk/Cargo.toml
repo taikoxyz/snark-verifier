@@ -20,7 +20,7 @@ ark-std = { version = "0.3.0", features = ["print-trace"], optional = true }
 snark-verifier = { path = "../snark-verifier", default-features = false }
 
 # system_halo2
-halo2_proofs = { git = "https://github.com/taikoxyz/halo2", branch = "taiko/unstable" } # not optional for now
+halo2_proofs = { git = "https://github.com/taikoxyz/halo2", branch = "taiko/a6-integration" } # not optional for now
 halo2curves = { git = 'https://github.com/privacy-scaling-explorations/halo2curves', tag = "0.3.2" }  # must be same version as in halo2_proofs
 
 # loader_halo2

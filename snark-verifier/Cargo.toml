@@ -17,7 +17,7 @@ halo2_curves = { git = "https://github.com/privacy-scaling-explorations/halo2cur
 rayon = { version = "1.5.3", optional = true }
 
 # system_halo2
-halo2_proofs = { git = "https://github.com/taikoxyz/halo2", branch = "taiko/unstable", optional = true }
+halo2_proofs = { git = "https://github.com/taikoxyz/halo2", branch = "taiko/a6-integration", optional = true }
 
 # loader_evm
 sha3 = { version = "0.10", optional = true }
